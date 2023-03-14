@@ -2,6 +2,7 @@ params.fasta = false
 params.outdir = false
 params.mlst = false
 
+
 process AMR { 
   tag "AMR on $sample_id"
   container 'staphb/ncbi-amrfinderplus:latest'

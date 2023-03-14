@@ -19,3 +19,4 @@ sample_id_and_fasta = Channel.fromFilePairs("${params.fasta}/*.fa", size: 1, fla
     // VFDBSUM(VFDB_files.collect())
 }
 
+
